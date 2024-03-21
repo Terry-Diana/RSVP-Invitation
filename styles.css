@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    color: #333;
+    padding: 20px;
+    max-width: 50%;
+    line-height: 1.6;
+    margin: 15px auto; 
+    border-radius: 10px;
+    background-size: cover;
+    background-position: center;
+    background-color: #E8E2E2;
+    background-repeat: no-repeat;
+    font-family: Arial, sans-serif;
+
+}
+
+main{
+    background-color: rgba(245,245,245,0.8);
+    box-shadow: 0 0 10px rgba(84,28,158,0.5);
+}
+
+/* Header styles */
+header {
+    text-align: center;
+    margin-bottom: 20px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url('neon.jpg');
+    background-position: center center;
+}
+
+header h1 {
+    color: #fff; 
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+header h2 {
+    color: #fff;
+    font-size: 1.2rem;
+}
+
+/* Description section styles */
+.description {
+    color: #000;
+    margin-bottom: 20px;
+}
+
+.description p {
+    text-align: center;
+}
+
+/* RSVP form styles */
+.rsvp-form {
+    padding: 20px;
+    color: #000;
+    border-radius: 8px;
+}
+
+.rsvp-form h2 {
+    color: #AD2AE3; 
+    font-size: 1.8rem;
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="email"],
+select {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button[type="submit"] {
+    width: 100%;
+    border: none;
+    padding: 10px;
+    color: #fff;
+    display: block;
+    cursor: pointer;
+    font-size: 1rem;
+    border-radius: 5px;
+    background-color: #AD2AE3; 
+    transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: #541D9C; 
+}
+
+/* Confirmation message styles */
+#confirmationMessage {
+    display: none; 
+    margin-top: 20px;
+    color: #541D9C; 
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    body {
+        max-width: 90%; 
+    }
+}
